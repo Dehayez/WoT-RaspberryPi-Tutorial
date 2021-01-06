@@ -1,4 +1,4 @@
-const GAMES_FOR_HOME_PAGE_TITLE = [
+export const GAMES_FOR_HOME_PAGE_TITLE = [
 	"Space Invaders",
 	"Pac-Man",
 	"Donkey Kong",
@@ -21,5 +21,3 @@ const GAMES_FOR_HOME_PAGE_TITLE = [
 	"Excitebike",
 	"Mortal Kombat II",
 ];
-
-
