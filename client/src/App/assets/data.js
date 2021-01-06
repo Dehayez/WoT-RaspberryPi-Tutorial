@@ -1,0 +1,25 @@
+const GAMES_FOR_HOME_PAGE_TITLE = [
+	"Space Invaders",
+	"Pac-Man",
+	"Donkey Kong",
+	"Super Mario Bros",
+	"The Legend of Zelda",
+	"Mega Man",
+	"Lemmings",
+	"Street Fighter II",
+	"Doom",
+	"NBA Jam",
+	"Pokémon",
+	"Tomb Raider",
+	"Super Mario 64",
+	"GoldenEye 007",
+	"Tetris",
+	"Duke Nuke'em",
+	"King's Bounty",
+	"Streets of Rage II",
+	"Frogger",
+	"Excitebike",
+	"Mortal Kombat II",
+];
+
+
