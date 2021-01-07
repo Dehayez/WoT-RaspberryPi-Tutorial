@@ -4,6 +4,8 @@ import * as Routes from '../../../routes';
 
 import './games.scss';
 
+import {Container, Row, Col} from 'react-bootstrap';
+
 import { NextRight, NextLeft, TutorialNavigation } from '../../../components'
 
 const Games01Page = () => {
@@ -24,6 +26,19 @@ const Games01Page = () => {
 				link4="/games/4"
 				link5="/games/5"
 			/>
+
+			<Container className="container-step">
+				<Row className="step">
+					<Col sm={7} className="step-left">
+						<h3 className="step-left__title">Games toevoegen aan RaspberryPi</h3>
+						<p className="step-left__list-text">In dit deel van de tutorial wordt er uitgelegd hoe je verschillende games aka ‘ROMS’ download en in de juiste map zet zodat je zo ook kan spelen!</p>
+					</Col>
+
+					<Col sm={5}  className="step-right">
+
+					</Col>
+				</Row>
+			</Container>
 		</div>
 	);
 };

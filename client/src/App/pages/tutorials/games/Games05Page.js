@@ -4,7 +4,11 @@ import * as Routes from '../../../routes';
 
 import './games.scss';
 
-import { NextLeft, TutorialNavigation  } from '../../../components'
+import { NextLeft, TutorialNavigation, Warning } from '../../../components';
+
+import {Container, Row, Col} from 'react-bootstrap';
+
+import { FaRaspberryPi } from 'react-icons/fa';
 
 const Games05Page = () => {
 	return (
@@ -23,6 +27,26 @@ const Games05Page = () => {
 				link4="/games/4"
 				link5="/games/5"
 			/>
+
+			<Container className="container-step">
+				<Row className="step">
+					<Col sm={7} className="step-left">
+						<FaRaspberryPi className="icon-rbp"/>
+						<h3 className="step-left__title">Download de RetroPi software</h3>
+						<ul className="step-left__list">
+							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
+							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
+							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is, bijvoorbeeld jouw bureaublad/desktop</li>
+						</ul>
+						<Warning text="De versie van jouw RaspberryPi is te vergelijken met het aantal logo's op je upboot scherm."
+						/>
+					</Col>
+
+					<Col sm={5}  className="step-right">
+
+					</Col>
+				</Row>
+			</Container>
 		</div>
 	);
 };
