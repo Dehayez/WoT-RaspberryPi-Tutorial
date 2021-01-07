@@ -9,14 +9,20 @@ import './nav.scss';
 const MainNavigation = () => {
 
 	const showNav = () => {
-		console.log('selected nav view');
 		document.getElementById('main').style = "display: none;";
 		document.getElementById('nav').style = "display: block;";
+		// HomePage logica
+		if (window.location.href.split('/')[3] === "") {
+			document.getElementsByClassName('home')[0].style = "display: none;" 
+		}
 	}
 	const showMain = () => {
-		console.log('selected main view');
 		document.getElementById('main').style = "display: block;";
 		document.getElementById('nav').style = "display: none;";
+		// HomePage logica
+		if (window.location.href.split('/')[3] === "") {
+			document.getElementsByClassName('home')[0].style = "display: flex;" 
+		}
 	}
 
 	return (
@@ -31,10 +37,10 @@ const MainNavigation = () => {
 					<FaTimes size={42} />
 				</div>
 				<div className="navigation-main__nav-wrapper">
-					<Link><h1>HOME</h1></Link>
-					<Link><h1>DOCUMENTATION</h1></Link>
-					<Link><h1>INFO</h1></Link>
-					<Link><h1>CONTACT</h1></Link>
+					<Link to={Routes.HOME} onClick={showMain}><h1>HOME</h1></Link>
+					<Link to={Routes.SETUP1} onClick={showMain}><h1>DOCUMENTATION</h1></Link>
+					<Link to={Routes.INFO} onClick={showMain}><h1>INFO</h1></Link>
+					<Link to={Routes.CONTACT} onClick={showMain}><h1>CONTACT</h1></Link>
 				</div>
 			</div>
 			

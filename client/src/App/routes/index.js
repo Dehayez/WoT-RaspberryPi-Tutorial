@@ -11,3 +11,6 @@ export const GAMES2 = '/games/2';
 export const GAMES3 = '/games/3';
 export const GAMES4 = '/games/4';
 export const GAMES5 = '/games/5';
+
+export const INFO = '/info';
+export const CONTACT = '/contact';

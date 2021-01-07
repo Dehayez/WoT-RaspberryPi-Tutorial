@@ -9,6 +9,8 @@ import { default as Setup02Page } from './tutorials/setup/Setup02Page';
 import { default as Setup03Page } from './tutorials/setup/Setup03Page';
 import { default as Setup04Page } from './tutorials/setup/Setup04Page';
 import { default as Setup05Page } from './tutorials/setup/Setup05Page';
+import { default as InfoPage } from './extra/InfoPage';
+import { default as ContactPage } from './extra/ContactPage';
 
 export {
 	HomePage,
@@ -22,4 +24,6 @@ export {
 	Setup03Page,
 	Setup04Page,
 	Setup05Page,
+	InfoPage,
+	ContactPage,
 }

@@ -24,6 +24,8 @@ function App() {
           <RouteWithLayout exact path={Routes.GAMES3} component={Pages.Games03Page} layout={Layouts.TutorialLayout} />
           <RouteWithLayout exact path={Routes.GAMES4} component={Pages.Games04Page} layout={Layouts.TutorialLayout} />
           <RouteWithLayout exact path={Routes.GAMES5} component={Pages.Games05Page} layout={Layouts.TutorialLayout} />
+          <RouteWithLayout exact path={Routes.INFO} component={Pages.InfoPage} layout={Layouts.BasicLayout} />
+          <RouteWithLayout exact path={Routes.CONTACT} component={Pages.ContactPage} layout={Layouts.BasicLayout} />
         </Switch>
       </Router>
     </div>
