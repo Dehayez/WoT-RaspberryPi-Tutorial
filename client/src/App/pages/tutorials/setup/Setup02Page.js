@@ -4,6 +4,8 @@ import * as Routes from '../../../routes';
 
 import './setup.scss';
 
+import {Container, Row, Col} from 'react-bootstrap';
+
 import { NextLeft, NextRight, TutorialNavigation } from '../../../components'
 
 const Setup02Page = () => {
@@ -25,7 +27,16 @@ const Setup02Page = () => {
 				link5="/setup/5"
 			/>
 
-			
+		<Container>
+			<Row>
+				<Col sm={8}>
+
+				</Col>
+				<Col sm={4}>
+
+				</Col>
+			</Row>
+		</Container>
 		</div>
 	);
 };

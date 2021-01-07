@@ -1,12 +1,12 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useRef } from "react";
 import * as THREE from "three";
 import { useControl } from "react-three-gui";
 
-import { GlTransmissionFormat, LightingStudio, } from "../../components";
+import { Arcade_Machine, LightingStudio, Sparks } from "../../components";
 
 export default () => {
   const components = [
-    "GlTransmissionFormat",
+    "Arcade_Machine",
   ];
 
   const lightings = [
@@ -34,13 +34,16 @@ export default () => {
     return useComponent === name;
   }
 
+  const mouse = useRef([0, 0])
+
+
   return (
     <>
       {showLighting("Studio Lighting") && <LightingStudio />}
-     
       {true && (
         <Suspense fallback={null}>
-          {showComponent("GlTransmissionFormat") && <GlTransmissionFormat />}
+          {showComponent("Arcade_Machine") && <Arcade_Machine />}
+          {true && <Sparks count={4} mouse={mouse} colors={['#7249C9', '#FCEEB5', '#EE786E', '#7249C9', '#905DFF', 'lightblue']} />}
         </Suspense>
       )}
     </>

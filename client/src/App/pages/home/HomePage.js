@@ -2,6 +2,7 @@ import { default as React, useEffect, useState } from 'react';
 import { Canvas } from "react-three-fiber";
 import TextLoop from "react-text-loop";
 import { Link } from "react-router-dom";
+import Loader from 'react-loader-spinner'
 
 import * as Routes from '../../routes';
 
@@ -12,9 +13,11 @@ import './home.scss';
 
 const HomePage = () => {
 
+	const [ canvas, canvasIsLoading ] = useState(false);
+
 	// renders a new title every interval
-	const [title, setTitle] = useState(GAMES_FOR_HOME_PAGE_TITLE[0])
 	const array_lenght = GAMES_FOR_HOME_PAGE_TITLE.length;
+	const [title, setTitle] = useState(GAMES_FOR_HOME_PAGE_TITLE[Math.round( Math.random() * array_lenght )])
 
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -41,9 +44,14 @@ const HomePage = () => {
 				</div>
 			</div>
 			<div className="home__animation">
-				<Canvas>
+				<Canvas onLoad={() => canvasIsLoading(true)}>
 					<Animation />
-				</Canvas>
+				</Canvas> 
+				{canvas ? 
+					<div></div>
+					:
+					<Loader className="loader" type="Oval" color="#905DFF" height={80} width={80} />
+				}
 			</div>
 		</div>
 	);

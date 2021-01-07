@@ -1,5 +1,18 @@
 @import '../../_sass/abstracts/';
 
 .info {
-
+	padding: 160px;
+	&__title {
+		width: 100%;
+		text-align: center;
+		h1 {
+			font-size: 64px;
+			color: $color-gray;
+		}
+		p {
+			width: 70%;
+			margin: auto;
+		}
+	}
+	&__blogs {}
 }
