@@ -2,8 +2,6 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import './games.scss';
-
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
 
 import {Container, Row, Col} from 'react-bootstrap';
@@ -33,13 +31,14 @@ const Games02Page = () => {
 				<Row className="step">
 					<Col sm={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
-						<h3 className="step-left__title">Download de RetroPi software</h3>
+						<h3 className="step-left__title">USB-Stick voorbereiden</h3>
 						<ul className="step-left__list">
-							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
-							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
-							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is, bijvoorbeeld jouw bureaublad/desktop</li>
+							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
+							<li className="step-left__list-text">Zorg dat de USB-stick volledig leeg is</li>
+							<li className="step-left__list-text">Maak een nieuwe folder aan met naam ‘retropi’</li>
+							<li className="step-left__list-text">Verwijder de USB-stick op een veilig manier van je computer</li>
 						</ul>
-						<Warning text="De versie van jouw RaspberryPi is te vergelijken met het aantal logo's op je upboot scherm."
+						<Warning text="Zorg dat je USB-Stick leeg is"
 						/>
 					</Col>
 

@@ -2,7 +2,7 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import './games.scss';
+import arcade from '../../../assets/illustrations/arcade.svg';
 
 import {Container, Row, Col} from 'react-bootstrap';
 
@@ -35,7 +35,7 @@ const Games01Page = () => {
 					</Col>
 
 					<Col sm={5}  className="step-right">
-
+						<img className="step-right__image" src={arcade} alt="arcade"></img>
 					</Col>
 				</Row>
 			</Container>

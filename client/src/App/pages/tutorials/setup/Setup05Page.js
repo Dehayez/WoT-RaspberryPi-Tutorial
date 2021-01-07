@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 
 import * as Routes from '../../../routes';
 
-import './setup.scss';
-
 import { NextLeft, NextRight, TutorialNavigation } from '../../../components';
 
 import {Container, Row, Col} from 'react-bootstrap';

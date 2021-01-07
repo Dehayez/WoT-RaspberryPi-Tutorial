@@ -2,8 +2,6 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import './setup.scss';
-
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components'
 
 import {Container, Row, Col} from 'react-bootstrap';
@@ -44,6 +42,7 @@ const Setup04Page = () => {
 								<b>Select Target</b>
 								&rarr; Selecteer de SD kaart die je in je computer hebt gestoken
 							</li>
+							<li className="step-left__list-text">Flash!</li>
 
 							<li className="step-left__list-text">Verwijder na enkele minuten de SD kaart uit je computer.</li>
 						</ul>

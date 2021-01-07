@@ -2,8 +2,6 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import './games.scss';
-
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
 
 import {Container, Row, Col} from 'react-bootstrap';
@@ -33,14 +31,17 @@ const Games04Page = () => {
 				<Row className="step">
 					<Col sm={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
-						<h3 className="step-left__title">Download de RetroPi software</h3>
+						<h3 className="step-left__title">ROMS (games) downloaden</h3>
 						<ul className="step-left__list">
-							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
-							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
-							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is, bijvoorbeeld jouw bureaublad/desktop</li>
+							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
+							<li className="step-left__list-text">Controleer eerst of er nieuwe bestanden in de folder ‘retropie’ zijn toegevoegd</li>
+							<li className="step-left__list-text">Zoek nu op het internet naar de retro games die jij wil spelen. Er bestaan verschillende bibliotheken hiervoor zoals  
+								<a href="https://www.romsgames.net/roms/"> RomsGames</a>, 
+								<a href="https://www.emulatorgames.net/roms/"> EmulatorGames</a>, 
+								<a href="https://romsmania.cc/roms"> RomsMania</a>
+							</li>
+							<li className="step-left__list-text">Zet de gedownloadde ROMS in de juiste folder op de USB-stick retropi {'>'} roms {'>'} CONSOLE_FOLDER {'>'} GEDOWNLOADE_ROM</li>
 						</ul>
-						<Warning text="De versie van jouw RaspberryPi is te vergelijken met het aantal logo's op je upboot scherm."
-						/>
 					</Col>
 
 					<Col sm={5}  className="step-right">

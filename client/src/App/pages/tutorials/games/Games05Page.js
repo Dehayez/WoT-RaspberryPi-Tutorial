@@ -2,8 +2,6 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import './games.scss';
-
 import { NextLeft, TutorialNavigation, Warning } from '../../../components';
 
 import {Container, Row, Col} from 'react-bootstrap';
@@ -32,14 +30,14 @@ const Games05Page = () => {
 				<Row className="step">
 					<Col sm={7} className="step-left">
 						<FaRaspberryPi className="icon-rbp"/>
-						<h3 className="step-left__title">Download de RetroPi software</h3>
+						<h3 className="step-left__title">Almost playtime, hang on!</h3>
 						<ul className="step-left__list">
-							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
-							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
-							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is, bijvoorbeeld jouw bureaublad/desktop</li>
+							<li className="step-left__list-text">Start de RaspberryPi op</li>
+							<li className="step-left__list-text">Steek de USB-stick in de poort van de RaspberryPi</li>
+							<li className="step-left__list-text">Druk op start op je controller en volg Main menu {'>'} Quit {'>'} Restart Emulationstation</li>
+							<li className="step-left__list-text">Dit zal enkele minuten duren, maar wanneer je RaspberryPi herstart is zal je zien dat er verschillende emulators te voorschijn komen</li>
+							<p className="step-left__list-text">Navigeer naar de emulator van je favorite game, en je bent klaar om te spelen!</p>
 						</ul>
-						<Warning text="De versie van jouw RaspberryPi is te vergelijken met het aantal logo's op je upboot scherm."
-						/>
 					</Col>
 
 					<Col sm={5}  className="step-right">

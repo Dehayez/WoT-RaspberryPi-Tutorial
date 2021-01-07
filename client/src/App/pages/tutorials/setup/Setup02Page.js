@@ -2,8 +2,6 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import './setup.scss';
-
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
 
 import {Container, Row, Col} from 'react-bootstrap';
