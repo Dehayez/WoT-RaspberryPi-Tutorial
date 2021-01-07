@@ -2,15 +2,16 @@ import React, { useRef, useState } from "react";
 import { useFrame } from "react-three-fiber";
 import { useGLTF } from "@react-three/drei";
 
-import logo from "./glTF_placeholder.glb";
+import logo from "./Arcade_Machine.glb";
 // import logo from "./glTF.glb";
+
 
 export default () => {
   const [clockwise, setClockwise] = useState(false);
 
   const gltf = useGLTF(logo, true);
   const logoRef = useRef();
-  const speed = 0.01;
+  const speed = 0.005;
 
   useFrame(() => {
     //logoRef.current.rotation.x += speed * (clockwise ? 1 : -1);
@@ -23,7 +24,8 @@ export default () => {
       ref={logoRef}
       object={gltf.scene}
       onClick={() => setClockwise(!clockwise)}
-      position={[0, 0, 0]}
+      position={[0, -2, 0]}
+      scale={[0.8, 0.8, 0.8]}
     />
   );
 };
