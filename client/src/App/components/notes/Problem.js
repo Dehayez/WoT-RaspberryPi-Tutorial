@@ -26,7 +26,7 @@ const Problem = () => {
 				<FaExclamationCircle size={24} opacity={0} />
 			</div>
 			<div id="open" className="problem__open" onClick={showClosed}>
-				<p>wip</p>
+				wip
 			</div>
 		</div>
 	);

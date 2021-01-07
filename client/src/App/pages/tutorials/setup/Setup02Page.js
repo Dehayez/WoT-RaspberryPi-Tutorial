@@ -4,11 +4,13 @@ import * as Routes from '../../../routes';
 
 import './setup.scss';
 
-import {  } from '../../../components'
+import { NextLeft, NextRight } from '../../../components'
 
 const Setup02Page = () => {
 	return (
 		<div className="setup02">
+			<NextLeft route={Routes.SETUP1} />
+			<NextRight route={Routes.SETUP3} />
 			Setup02Page
 		</div>
 	);

@@ -4,11 +4,13 @@ import * as Routes from '../../../routes';
 
 import './games.scss';
 
-import {  } from '../../../components'
+import { NextLeft, NextRight } from '../../../components'
 
 const Games04Page = () => {
 	return (
 		<div className="games04">
+			<NextLeft route={Routes.GAMES3} />
+			<NextRight route={Routes.GAMES5} />
 			games04page
 		</div>
 	);
