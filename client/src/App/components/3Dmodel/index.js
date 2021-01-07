@@ -13,9 +13,9 @@ export default () => {
   const speed = 0.01;
 
   useFrame(() => {
-    // logoRef.current.rotation.x += speed * (clockwise ? 1 : -1);
+    logoRef.current.rotation.x += speed * (clockwise ? 1 : -1);
     logoRef.current.rotation.y += speed * (clockwise ? 1 : -1);
-    // logoRef.current.rotation.z += speed * (clockwise ? 1 : -1);
+    logoRef.current.rotation.z += speed * (clockwise ? 1 : -1);
   });
 
   return (

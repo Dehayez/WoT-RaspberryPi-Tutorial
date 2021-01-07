@@ -1,0 +1,46 @@
+@import '../../_sass/abstracts/';
+
+.navigation-main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	&__hamburger {
+
+		svg {
+			margin: 28px;
+			color: $color-gray;
+		}
+	}
+	&__nav {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: $color-background;
+
+		&-times {
+			position: absolute;
+			svg {
+				margin: 28px;
+				color: $color-gray;
+			}
+		}
+		&-wrapper {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			a {
+				text-decoration: none;
+				h1 {
+					font-size: 50px;
+					color: $color-gray;
+					&:hover {
+						color: $color-purple;
+					}
+				}
+			}
+		}
+	}
+}
