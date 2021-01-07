@@ -1,21 +1,19 @@
 import { default as React } from 'react';
-import { Link } from 'react-router-dom';
-import { FaAngleLeft } from 'react-icons/fa';
 
 import * as Routes from '../../routes';
 
 import './blog.scss';
 
-const Blog = ({link, img, title, context}) => {
+const Blog = ({link, img, title}) => {
 
 	return (
-		<Link to={link} className="blog">
+		<div className="blog">
 			<img alt="img_of_blog" src={img}></img>
 			<div className="blog__wrapper">
 				<h1>{title}</h1>
-				<p>{context}</p>
+				<a href={link}><p><strong>Druk hier voor de Tutorial</strong></p></a>
 			</div>
-		</Link>
+		</div>
 	);
 };
 
