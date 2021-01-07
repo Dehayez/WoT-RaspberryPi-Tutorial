@@ -17,7 +17,9 @@ canvas {
 
 		&-title {
 			color: $color-gray;
-			font-size: 38px;
+			font-size: 3rem;
+			font-weight: 700;
+			margin-bottom: 2rem;
 
 			span {
 				color: $color-purple;
@@ -61,6 +63,7 @@ canvas {
 					color: $color-white;
 					font-size: 16px;
 					font-weight: 600;
+					margin: 0;
 
 					width: 240px;
 					text-align: center;

@@ -37,7 +37,7 @@ const HomePage = () => {
 				<p className="home__data-text">Hey! Wij zijn Yentel De Hauwere en Jeroen Vervaeck en voor het vak Web Of Things hebben we een gebruiksvriendelijke tutorial gemaakt hoe je retro games speelt op een RaspberryPi</p>
 				<div className="home__data-wrapper">
 					<Link className="home__data-wrapper-button" to={Routes.SETUP1}><p>Documentatie</p></Link>
-					<Link className="home__data-wrapper-button button--white"><p>Info</p></Link>
+					<Link className="home__data-wrapper-button button--white" to={Routes.INFO}><p>Info</p></Link>
 				</div>
 			</div>
 			<div className="home__animation">
