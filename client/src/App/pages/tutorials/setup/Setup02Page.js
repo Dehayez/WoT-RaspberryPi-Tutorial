@@ -24,6 +24,8 @@ const Setup02Page = () => {
 				link4="/setup/4"
 				link5="/setup/5"
 			/>
+
+			
 		</div>
 	);
 };
