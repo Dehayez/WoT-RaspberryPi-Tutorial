@@ -2,8 +2,8 @@ import React, { useRef, useState } from "react";
 import { useFrame } from "react-three-fiber";
 import { useGLTF } from "@react-three/drei";
 
-//import logo from "./glTF_placeholder.glb";
-import logo from "./glTF.glb";
+import logo from "./glTF_placeholder.glb";
+// import logo from "./glTF.glb";
 
 export default () => {
   const [clockwise, setClockwise] = useState(false);
