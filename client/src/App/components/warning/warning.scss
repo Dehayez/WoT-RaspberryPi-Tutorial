@@ -1,0 +1,26 @@
+@import '../../_sass/abstracts/';
+
+.warning {
+	background-color: $color-purple-light;
+
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	border-radius: 10px;
+	
+
+	& svg {
+		color: $color-purple;
+		font-size: 3rem;
+		margin-right: 1rem;
+	}
+
+	& p {
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 24px;
+		opacity: 0.8;
+
+		margin: 0;
+	}
+}

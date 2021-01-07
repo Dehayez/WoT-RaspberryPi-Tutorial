@@ -1,5 +1,5 @@
 import { default as React } from 'react';
-import { FaExclamationCircle } from 'react-icons/fa';
+import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 import * as Routes from '../../routes';
 
@@ -21,9 +21,9 @@ const Problem = () => {
 	return (
 		<div className="problem">
 			<div id="closed" className="problem__closed" onClick={showOpen}>
-				<FaExclamationCircle size={24} />
+				<AiOutlineInfoCircle size={24} />
 				<p>Heb je problemen?</p>
-				<FaExclamationCircle size={24} opacity={0} />
+				<AiOutlineInfoCircle size={24} opacity={0} />
 			</div>
 			<div id="open" className="problem__open" onClick={showClosed}>
 				wip

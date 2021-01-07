@@ -4,6 +4,7 @@ export { default as LightingStudio } from "./lighting/Studio";
 export { default as MainNavigation } from "./nav/MainNavigation";
 export { default as TutorialNavigation } from "./nav/TutorialNavigation";
 export { default as Problem } from "./notes/Problem";
+export { default as Warning } from "./warning/Warning";
 export { default as NextLeft } from "./next/NextLeft";
 export { default as NextRight } from "./next/NextRight";
 export { default as Blog } from "./blogs/Blog";
