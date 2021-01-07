@@ -54,6 +54,7 @@ canvas {
 
 				&:hover {
 					background-color: $color-purple-dark;
+					text-decoration: none;
 
 					cursor: pointer;
 					transform: scale(1.08);
@@ -76,6 +77,7 @@ canvas {
 
 				&:hover {
 					background-color: $color-purple-light;
+					text-decoration: none;
 				}
 				
 				p {
