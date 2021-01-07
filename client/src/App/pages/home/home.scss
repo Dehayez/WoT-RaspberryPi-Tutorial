@@ -89,5 +89,13 @@ canvas {
 	&__animation {
 		width: 30%;
 		height: 100%;
+
+		.loader {
+			position: absolute;
+			right: 15%;
+			bottom: 50%;
+			margin-bottom: 40px;
+			z-index: -10;
+		}
 	}
 }
