@@ -1,0 +1,57 @@
+@import '../_sass/abstracts/';
+.container-step {
+	height: 100vh;
+	width: 80vw;
+	padding: 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	color: $color-gray;
+}
+
+.step {
+	&-left {
+		&__title {
+			margin-bottom: 1rem;
+			font-weight: 500;
+		}
+
+		&__list {
+			list-style-type: decimal;
+			margin: 2rem 0;
+
+			&-text {
+				font-weight: 300;
+				margin: 1rem 0;
+
+				&::marker {
+					font-weight: 700;
+				}
+
+				& b {
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
+	/* &-right {
+
+	} */
+}
+
+.icon {
+	&-laptop {
+		font-size: 4rem;
+		color: $color-gray-light;
+		margin-bottom: 1rem;
+	}
+
+	&-rbp {
+		font-size: 3rem;
+		color: $color-gray-light;
+		margin-bottom: 1rem;
+	}
+}

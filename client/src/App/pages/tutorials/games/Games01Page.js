@@ -4,11 +4,12 @@ import * as Routes from '../../../routes';
 
 import './games.scss';
 
-import { NextRight, TutorialNavigation } from '../../../components'
+import { NextRight, NextLeft, TutorialNavigation } from '../../../components'
 
 const Games01Page = () => {
 	return (
 		<div className="games01">
+			<NextLeft route={Routes.SETUP5} />
 			<NextRight route={Routes.GAMES2} />
 			<TutorialNavigation 
 				text1="Intro" 

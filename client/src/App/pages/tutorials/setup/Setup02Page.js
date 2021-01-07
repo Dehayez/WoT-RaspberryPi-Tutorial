@@ -4,9 +4,11 @@ import * as Routes from '../../../routes';
 
 import './setup.scss';
 
+import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
+
 import {Container, Row, Col} from 'react-bootstrap';
 
-import { NextLeft, NextRight, TutorialNavigation } from '../../../components'
+import { IoIosLaptop } from 'react-icons/io';
 
 const Setup02Page = () => {
 	return (
@@ -27,16 +29,25 @@ const Setup02Page = () => {
 				link5="/setup/5"
 			/>
 
-		<Container>
-			<Row>
-				<Col sm={8}>
+			<Container className="container-step">
+				<Row className="step">
+					<Col sm={7} className="step-left">
+						<IoIosLaptop className="icon-laptop"/>
+						<h3 className="step-left__title">Download de RetroPi software</h3>
+						<ul className="step-left__list">
+							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
+							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
+							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is, bijvoorbeeld jouw bureaublad/desktop</li>
+						</ul>
+						<Warning text="De versie van jouw RaspberryPi is te vergelijken met het aantal logo's op je upboot scherm."
+						/>
+					</Col>
 
-				</Col>
-				<Col sm={4}>
+					<Col sm={5}  className="step-right">
 
-				</Col>
-			</Row>
-		</Container>
+					</Col>
+				</Row>
+			</Container>
 		</div>
 	);
 };
