@@ -2,6 +2,9 @@
 
 .navigation-main {
 	position: absolute;
+	width: 100%;
+	// changes to 100% once icon clicked
+	height: 100px;
 
 	&__hamburger {
 

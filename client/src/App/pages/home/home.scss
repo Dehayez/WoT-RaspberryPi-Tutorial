@@ -10,34 +10,73 @@ canvas {
 	height: 100%;
 	display: flex;
 	align-items: center;
+
 	&__data {
 		width: 70%;
 		padding-left: 80px;
-		h1 {
+
+		&-title {
 			color: $color-gray;
 			font-size: 38px;
+
 			span {
 				color: $color-purple;
 			}
 		}
-		p {
+
+		&-text {
 			color: $color-gray;
+			opacity: 0.8;
+			line-height: 2;
 		}
+
 		&-wrapper {
 			width: 70%;
 			display: flex;
-			justify-content: space-between;
 			margin-top: 50px;
-			a { text-decoration: none; }
-			p {
-				width: 200px;
-				text-align: center;
-				padding: 20px;
-				margin-right: 20px;
+
+			&-button { 
+				background-color: $color-purple;
+				border: 2px solid $color-purple;
+				text-decoration: none;
+
+				height: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 				border-radius: 10px;
-				&:nth-child(1) {
-					background-color: $color-purple;
+				text-align: center;
+				margin-right: 2rem;
+
+				transition: 0.3s;
+
+				&:hover {
+					background-color: $color-purple-dark;
+
+					cursor: pointer;
+					transform: scale(1.08);
+				}
+
+				p {
 					color: $color-white;
+					font-size: 16px;
+					font-weight: 600;
+
+					width: 240px;
+					text-align: center;
+				}
+			}
+
+			.button--white {
+				background-color: $color-white;
+				border: 2px solid $color-purple;
+
+				&:hover {
+					background-color: $color-purple-light;
+				}
+				
+				p {
+					color: $color-purple;
 				}
 			}
 		}
