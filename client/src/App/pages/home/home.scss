@@ -20,6 +20,8 @@ canvas {
 			font-size: 3rem;
 			font-weight: 700;
 			margin-bottom: 2rem;
+			-webkit-animation: fade-in 1s both;
+			animation: fade-in 1s both;
 
 			span {
 				color: $color-purple;
@@ -30,12 +32,16 @@ canvas {
 			color: $color-gray;
 			opacity: 0.8;
 			line-height: 2;
+			-webkit-animation: fade-in 1s 0.2s both;
+			animation: fade-in 1s 0.2s both;
 		}
 
 		&-wrapper {
 			width: 70%;
 			display: flex;
 			margin-top: 50px;
+			-webkit-animation: fade-in 1s 0.4s both;
+			animation: fade-in 1s 0.4s both;
 
 			&-button { 
 				background-color: $color-purple;
@@ -89,6 +95,8 @@ canvas {
 	&__animation {
 		width: 30%;
 		height: 100%;
+		-webkit-animation: fade-in 1s 0.8s both;
+		animation: fade-in 1s 0.8s both;
 
 		.loader {
 			position: absolute;

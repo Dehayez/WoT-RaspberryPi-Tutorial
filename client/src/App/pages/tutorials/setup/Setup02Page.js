@@ -9,6 +9,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import { IoIosLaptop } from 'react-icons/io';
 
 const Setup02Page = () => {
+
 	return (
 		<div className="setup02">
 			<NextLeft route={Routes.SETUP1} />
