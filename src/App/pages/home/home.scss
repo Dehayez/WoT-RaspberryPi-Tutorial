@@ -1,0 +1,134 @@
+@import '../../_sass/abstracts/';
+
+canvas {
+	width: 100%;
+	height: 100%;
+}
+
+.home {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+	&__data {
+		width: 70%;
+		padding-left: 80px;
+
+		&-title {
+			color: $color-gray;
+			font-size: 3rem;
+			font-weight: 700;
+			margin-bottom: 2rem;
+			-webkit-animation: fade-in 1s both;
+			animation: fade-in 1s both;
+
+			span {
+				color: $color-purple;
+			}
+		}
+
+		&-text {
+			color: $color-gray;
+			opacity: 0.8;
+			line-height: 2;
+			-webkit-animation: fade-in 1s 0.2s both;
+			animation: fade-in 1s 0.2s both;
+		}
+
+		&-wrapper {
+			width: 70%;
+			display: flex;
+			margin-top: 50px;
+			-webkit-animation: fade-in 1s 0.4s both;
+			animation: fade-in 1s 0.4s both;
+
+			&-button { 
+				background-color: $color-purple;
+				border: 2px solid $color-purple;
+				text-decoration: none;
+
+				height: 60px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 10px;
+				text-align: center;
+				margin-right: 2rem;
+
+				transition: 0.3s;
+
+				&:hover {
+					background-color: $color-purple-dark;
+					text-decoration: none;
+
+					cursor: pointer;
+					transform: scale(1.08);
+				}
+
+				p {
+					color: $color-white;
+					font-size: 16px;
+					font-weight: 600;
+					margin: 0;
+
+					width: 240px;
+					text-align: center;
+				}
+			}
+
+			.button--white {
+				background-color: $color-white;
+				border: 2px solid $color-purple;
+
+				&:hover {
+					background-color: $color-purple-light;
+					text-decoration: none;
+				}
+				
+				p {
+					color: $color-purple;
+				}
+			}
+		}
+	}
+	&__animation {
+		width: 30%;
+		height: 100%;
+		-webkit-animation: fade-in 1s 0.8s both;
+		animation: fade-in 1s 0.8s both;
+
+		.loader {
+			position: absolute;
+			right: 13%;
+			bottom: 50%;
+			margin-bottom: 40px;
+			z-index: -10;
+		}
+	}
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+   .home__animation {
+	   display: none;
+   }
+
+   .home__data {
+	   width: 100VW;
+	   padding: 2rem;
+   }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+	.home__data-wrapper {
+		flex-direction: column;
+		width: 100%;
+
+		&-button {
+			margin-top: 1rem;
+			width: 100%;
+		}
+	}
+ }

@@ -1,0 +1,79 @@
+@import '../../_sass/abstracts/';
+
+.info {
+	padding: 160px;
+	-webkit-animation: fade-in 1s 0.2s both;
+	animation: fade-in 1s 0.2s both;
+	
+	&__title {
+		width: 100%;
+		text-align: center;
+		h1 {
+			font-size: 64px;
+			color: $color-gray;
+		}
+		p {
+			width: 70%;
+			margin: auto;
+		}
+	}
+	&__blogs {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 60px;
+	}
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+	.info {
+		padding: 0;
+		padding-top: 6rem;
+	}
+
+	.blog {
+		width: 42%;
+	}
+ }
+ // X-Small devices (portrait phones, less than 576px)
+ @media (max-width: 575.98px) { 
+	 .blog {
+		 width: 100%;
+	 }
+  }
+ 
+.contact {
+	padding: 160px;
+	-webkit-animation: fade-in 1s 0.2s both;
+	animation: fade-in 1s 0.2s both;
+	
+	&__title {
+		width: 100%;
+		text-align: center;
+		h1 {
+			font-size: 64px;
+			color: $color-gray;
+		}
+		p {
+			width: 70%;
+			margin: auto;
+		}
+		h2 {
+			font-size: 32px;
+			color: $color-purple;
+			margin-top: 40px;
+		}
+
+		#email {
+			transition: 2s;
+		}
+	}
+
+}
+
+.text-flicker-in-glow {
+	-webkit-animation: text-flicker-in-glow 3s linear both;
+	        animation: text-flicker-in-glow 3s linear both;
+}
