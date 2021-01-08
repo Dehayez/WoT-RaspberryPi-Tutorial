@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/WoT-RaspberryPi-Tutorial/static/css/main.c9eb7474.chunk.css",
-    "main.js": "/WoT-RaspberryPi-Tutorial/static/js/main.8f6ebad3.chunk.js",
-    "main.js.map": "/WoT-RaspberryPi-Tutorial/static/js/main.8f6ebad3.chunk.js.map",
+    "main.js": "/WoT-RaspberryPi-Tutorial/static/js/main.6003c3f9.chunk.js",
+    "main.js.map": "/WoT-RaspberryPi-Tutorial/static/js/main.6003c3f9.chunk.js.map",
     "runtime-main.js": "/WoT-RaspberryPi-Tutorial/static/js/runtime-main.673336f8.js",
     "runtime-main.js.map": "/WoT-RaspberryPi-Tutorial/static/js/runtime-main.673336f8.js.map",
-    "static/js/2.7ef8a5ac.chunk.js": "/WoT-RaspberryPi-Tutorial/static/js/2.7ef8a5ac.chunk.js",
-    "static/js/2.7ef8a5ac.chunk.js.map": "/WoT-RaspberryPi-Tutorial/static/js/2.7ef8a5ac.chunk.js.map",
+    "static/js/2.bfacb27e.chunk.js": "/WoT-RaspberryPi-Tutorial/static/js/2.bfacb27e.chunk.js",
+    "static/js/2.bfacb27e.chunk.js.map": "/WoT-RaspberryPi-Tutorial/static/js/2.bfacb27e.chunk.js.map",
     "static/js/3.d01934e4.chunk.js": "/WoT-RaspberryPi-Tutorial/static/js/3.d01934e4.chunk.js",
     "static/js/3.d01934e4.chunk.js.map": "/WoT-RaspberryPi-Tutorial/static/js/3.d01934e4.chunk.js.map",
     "index.html": "/WoT-RaspberryPi-Tutorial/index.html",
     "static/css/main.c9eb7474.chunk.css.map": "/WoT-RaspberryPi-Tutorial/static/css/main.c9eb7474.chunk.css.map",
-    "static/js/2.7ef8a5ac.chunk.js.LICENSE.txt": "/WoT-RaspberryPi-Tutorial/static/js/2.7ef8a5ac.chunk.js.LICENSE.txt",
+    "static/js/2.bfacb27e.chunk.js.LICENSE.txt": "/WoT-RaspberryPi-Tutorial/static/js/2.bfacb27e.chunk.js.LICENSE.txt",
     "static/media/Arcade_Machine.5b1c7ed9.glb": "/WoT-RaspberryPi-Tutorial/static/media/Arcade_Machine.5b1c7ed9.glb",
     "static/media/Configuring_Game_Pad.d9de1dc1.jpg": "/WoT-RaspberryPi-Tutorial/static/media/Configuring_Game_Pad.d9de1dc1.jpg",
     "static/media/Raspberry-Pi-APA102-LED-Strip-Thumnail.c82d4ae9.jpg": "/WoT-RaspberryPi-Tutorial/static/media/Raspberry-Pi-APA102-LED-Strip-Thumnail.c82d4ae9.jpg",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.673336f8.js",
-    "static/js/2.7ef8a5ac.chunk.js",
+    "static/js/2.bfacb27e.chunk.js",
     "static/css/main.c9eb7474.chunk.css",
-    "static/js/main.8f6ebad3.chunk.js"
+    "static/js/main.6003c3f9.chunk.js"
   ]
 }
