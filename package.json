@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yenteldehauwere.github.io/WoT-RaspberryPi-Tutorial/",
+  "homepage": "https://yenteldehauwere.github.io/WoT-RaspberryPi-Tutorial",
   "dependencies": {
     "@react-three/drei": "^2.2.15",
     "@testing-library/jest-dom": "^5.11.4",
