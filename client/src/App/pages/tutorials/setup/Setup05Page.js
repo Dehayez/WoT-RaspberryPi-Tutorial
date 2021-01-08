@@ -6,6 +6,8 @@ import * as Routes from '../../../routes';
 
 import { NextLeft, NextRight, TutorialNavigation } from '../../../components';
 
+import { img_gamepad } from '../../../assets/images';
+
 import {Container, Row, Col} from 'react-bootstrap';
 
 import { FaRaspberryPi } from 'react-icons/fa';
@@ -49,7 +51,7 @@ const Setup05Page = () => {
 					</Col>
 
 					<Col sm={5}  className="step-right">
-
+						<img src={img_gamepad} width="100%" height="100%"></img>
 					</Col>
 				</Row>
 			</Container>

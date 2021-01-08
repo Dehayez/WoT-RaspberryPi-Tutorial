@@ -4,6 +4,8 @@ import * as Routes from '../../../routes';
 
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
 
+import { games02 } from '../../../assets/gifs'
+
 import {Container, Row, Col} from 'react-bootstrap';
 
 import { IoIosLaptop } from 'react-icons/io';
@@ -35,7 +37,7 @@ const Games02Page = () => {
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
 							<li className="step-left__list-text">Zorg dat de USB-stick volledig leeg is</li>
-							<li className="step-left__list-text">Maak een nieuwe folder aan met naam ‘retropi’</li>
+							<li className="step-left__list-text">Maak een nieuwe folder aan met naam ‘retropie’</li>
 							<li className="step-left__list-text">Verwijder de USB-stick op een veilig manier van je computer</li>
 						</ul>
 						<Warning text="Zorg dat je USB-Stick leeg is"
@@ -43,7 +45,7 @@ const Games02Page = () => {
 					</Col>
 
 					<Col sm={5}  className="step-right">
-
+						<iframe className="gif" src={games02} width="100%" height="100%"></iframe>
 					</Col>
 				</Row>
 			</Container>

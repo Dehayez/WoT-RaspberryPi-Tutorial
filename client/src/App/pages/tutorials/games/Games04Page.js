@@ -4,6 +4,8 @@ import * as Routes from '../../../routes';
 
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
 
+import { games04 } from '../../../assets/gifs'
+
 import {Container, Row, Col} from 'react-bootstrap';
 
 import { IoIosLaptop } from 'react-icons/io';
@@ -40,12 +42,12 @@ const Games04Page = () => {
 								<a href="https://www.emulatorgames.net/roms/"> EmulatorGames</a>, 
 								<a href="https://romsmania.cc/roms"> RomsMania</a>
 							</li>
-							<li className="step-left__list-text">Zet de gedownloadde ROMS in de juiste folder op de USB-stick retropi {'>'} roms {'>'} CONSOLE_FOLDER {'>'} GEDOWNLOADE_ROM</li>
+							<li className="step-left__list-text">Zet de gedownloadde ROMS in de juiste folder op de USB-stick retropie {'>'} roms {'>'} CONSOLE_FOLDER {'>'} GEDOWNLOADE_ROM</li>
 						</ul>
 					</Col>
 
 					<Col sm={5}  className="step-right">
-
+						<iframe src={games04} width="100%" height="100%"></iframe>
 					</Col>
 				</Row>
 			</Container>

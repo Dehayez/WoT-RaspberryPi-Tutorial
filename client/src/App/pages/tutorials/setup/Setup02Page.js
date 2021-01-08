@@ -4,6 +4,8 @@ import * as Routes from '../../../routes';
 
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
 
+import { img_retropi } from '../../../assets/images';
+
 import {Container, Row, Col} from 'react-bootstrap';
 
 import { IoIosLaptop } from 'react-icons/io';
@@ -43,7 +45,7 @@ const Setup02Page = () => {
 					</Col>
 
 					<Col sm={5}  className="step-right">
-
+						<img src={img_retropi} width="220px" height="200px"></img>
 					</Col>
 				</Row>
 			</Container>

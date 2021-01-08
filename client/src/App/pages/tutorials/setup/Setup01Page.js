@@ -72,7 +72,7 @@ const Setup01Page = () => {
 					</Col>
 
 					<Col sm={5}  className="step-right">
-
+						
 					</Col>
 				</Row>
 			</Container>
