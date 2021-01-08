@@ -9,7 +9,13 @@ import {  } from '../../components'
 const ContactPage = () => {
 	return (
 		<div className="contact">
-			ContactPage
+			<div className="contact__title">
+			<h1>Contact us</h1>
+				<p>
+					Wanneer je problemen ondervindt bij het opzetten van je RaspberryPi of het RetroPi systeem,
+					kan je ons contacteren via dit contactfomulier
+				</p>
+			</div>
 		</div>
 	);
 };

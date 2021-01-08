@@ -38,7 +38,7 @@ const Setup02Page = () => {
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
 							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
-							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is, bijvoorbeeld jouw bureaublad/desktop</li>
+							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is. Bijvoorbeeld jouw bureaublad/desktop</li>
 						</ul>
 						<Warning text="De versie van jouw RaspberryPi is te vergelijken met het aantal logo's op je upboot scherm."
 						/>

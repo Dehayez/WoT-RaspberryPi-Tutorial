@@ -43,7 +43,7 @@ export default () => {
       {true && (
         <Suspense fallback={null}>
           {showComponent("Arcade_Machine") && <Arcade_Machine />}
-          {true && <Sparks count={2} mouse={mouse} colors={['#7249C9', '#FCEEB5', '#7249C9', '#905DFF']} />}
+          {true && <Sparks count={5} mouse={mouse} colors={['#7249C9', '#FCEEB5', '#7249C9', 'lightblue', 'red']} />}
         </Suspense>
       )}
     </>

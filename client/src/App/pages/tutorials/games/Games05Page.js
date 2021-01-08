@@ -37,7 +37,7 @@ const Games05Page = () => {
 							<li className="step-left__list-text">Start de RaspberryPi op</li>
 							<li className="step-left__list-text">Steek de USB-stick in de poort van de RaspberryPi</li>
 							<li className="step-left__list-text">Druk op start op je controller en volg Main menu {'>'} Quit {'>'} Restart Emulationstation</li>
-							<li className="step-left__list-text">Dit zal enkele minuten duren, maar wanneer je RaspberryPi herstart is zal je zien dat er verschillende emulators te voorschijn komen</li>
+							<li className="step-left__list-text">Dit zal enkele minuten duren, maar wanneer je RaspberryPi herstart is, zal je zien dat er verschillende emulators te voorschijn komen</li>
 							<p className="step-left__list-text">Navigeer naar de emulator van je favorite game, en je bent klaar om te spelen!</p>
 						</ul>
 					</Col>

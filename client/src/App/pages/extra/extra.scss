@@ -25,3 +25,23 @@
 		margin-top: 60px;
 	}
 }
+
+.contact {
+	padding: 160px;
+	-webkit-animation: fade-in 1s 0.2s both;
+	animation: fade-in 1s 0.2s both;
+	
+	&__title {
+		width: 100%;
+		text-align: center;
+		h1 {
+			font-size: 64px;
+			color: $color-gray;
+		}
+		p {
+			width: 70%;
+			margin: auto;
+		}
+	}
+
+}
