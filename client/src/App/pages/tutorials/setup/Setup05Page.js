@@ -41,7 +41,7 @@ const Setup05Page = () => {
 							<li className="step-left__list-text">Voeg als laatste de stroomkabel van de RaspberryPi in.
 								Hierdoor zal de RaspberryPi opstarten, en zal je zien dat de RetroPi software ook opstart
 							</li>
-							<li className="step-left__list-text">Nu zal RetroPi je vragen om je controller te configureren. Volg de stappen die van jou verwacht.
+							<li className="step-left__list-text">Nu zal RetroPi je vragen om je controller te configureren. Verbind met de micro-USB je controller met je RaspberryPi. Volg hierna de stappen die van jou verwacht worden.
 								De configuratie van RetroPi en de bijhorende controller is nu voltooid. In de volgende stappen gaan we <Link to={Routes.GAMES1}>games toevoegen</Link> aan je SD-kaart
 							</li>
 							<p className="step-left__list-text"><b>Optioneel:</b> <a href="https://www.youtube.com/watch?v=uoFQrnwGoLM&t=146s">controller met bluetooth verbinden</a></p>

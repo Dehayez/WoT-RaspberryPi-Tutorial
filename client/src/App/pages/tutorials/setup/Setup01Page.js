@@ -33,6 +33,7 @@ const Setup01Page = () => {
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">Benodigdheden</h3>
 						<table>
+							<tbody>
 							<tr>
 								<td className="step-left__list-text"><b>RaspberryPi</b></td>
 								<td className="step-left__list-text">Versie 3 of 4</td>
@@ -65,6 +66,7 @@ const Setup01Page = () => {
 								<td className="step-left__list-text"><b>Laptop</b></td>
 								<td className="step-left__list-text"></td>
 							</tr>
+							</tbody>
 						</table> 
 						<Warning text="Je hebt alle componenten nodig om deze tutorial te voltooien. Controleer of de SD kaart en USB stick leeg zijn"/>
 					</Col>
