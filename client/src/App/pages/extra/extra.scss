@@ -26,6 +26,24 @@
 	}
 }
 
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+	.info {
+		padding: 0;
+		padding-top: 6rem;
+	}
+
+	.blog {
+		width: 42%;
+	}
+ }
+ // X-Small devices (portrait phones, less than 576px)
+ @media (max-width: 575.98px) { 
+	 .blog {
+		 width: 100%;
+	 }
+  }
+ 
 .contact {
 	padding: 160px;
 	-webkit-animation: fade-in 1s 0.2s both;

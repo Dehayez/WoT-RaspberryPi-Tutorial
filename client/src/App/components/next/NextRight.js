@@ -2,8 +2,6 @@ import { default as React } from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleRight } from 'react-icons/fa';
 
-import * as Routes from '../../routes';
-
 import './next.scss';
 
 const NextRight = ({route}) => {

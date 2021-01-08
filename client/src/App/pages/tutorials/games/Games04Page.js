@@ -31,7 +31,7 @@ const Games04Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">ROMS (games) downloaden</h3>
 						<ul className="step-left__list">

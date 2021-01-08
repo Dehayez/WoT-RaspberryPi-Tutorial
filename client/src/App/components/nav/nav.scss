@@ -104,3 +104,14 @@
 		}
 	}
 }
+
+ // Medium devices (tablets, less than 992px)
+ @media (max-width: 991.98px) { 
+	.navigation-tutorial {
+		display: none;
+	} 
+
+	.navigation-main__nav-wrapper a h1 {
+		font-size: 2rem;
+	}
+}

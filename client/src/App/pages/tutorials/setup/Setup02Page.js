@@ -32,7 +32,7 @@ const Setup02Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">Download de RetroPi software</h3>
 						<ul className="step-left__list">
@@ -44,7 +44,7 @@ const Setup02Page = () => {
 						/>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 						<img src={img_retropi} width="220px" height="200px"></img>
 					</Col>
 				</Row>

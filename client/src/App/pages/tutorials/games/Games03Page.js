@@ -29,13 +29,13 @@ const Games03Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<FaRaspberryPi className="icon-rbp"/>
 						<h3 className="step-left__title">USB-Stick configureren</h3>
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je RaspberryPi</li>
 							<li className="step-left__list-text">Start de RaspberryPi op door de stroomtoevoer in te steken</li>
-							<li className="step-left__list-text">Wacht enkele minuutten zodat RetroPi de tijd heeft om de nodige bestanden naar de USB-stick te schrijven</li>
+							<li className="step-left__list-text">Wacht enkele minuten zodat RetroPi de tijd heeft om de nodige bestanden naar de USB-stick te schrijven</li>
 							<li className="step-left__list-text">Sluit de RaspberryPi af</li>
 							<li className="step-left__list-text">Verwijder de USB-stick van de RaspberryPi</li>
 						</ul>
@@ -43,7 +43,7 @@ const Games03Page = () => {
 						/>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 
 					</Col>
 				</Row>

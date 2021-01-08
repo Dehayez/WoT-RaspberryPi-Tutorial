@@ -1,5 +1,4 @@
 import React, { Suspense, useRef } from "react";
-import * as THREE from "three";
 import { useControl } from "react-three-gui";
 
 import { Arcade_Machine, LightingStudio, Sparks } from "../../components";

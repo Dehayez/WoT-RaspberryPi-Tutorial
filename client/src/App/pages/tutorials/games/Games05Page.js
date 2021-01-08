@@ -2,7 +2,7 @@ import { default as React } from 'react';
 
 import * as Routes from '../../../routes';
 
-import { NextLeft, TutorialNavigation, Warning } from '../../../components';
+import { NextLeft, TutorialNavigation } from '../../../components';
 
 import { img_restart } from '../../../assets/images';
 
@@ -30,7 +30,7 @@ const Games05Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<FaRaspberryPi className="icon-rbp"/>
 						<h3 className="step-left__title">Almost playtime, hang on!</h3>
 						<ul className="step-left__list">
@@ -42,7 +42,7 @@ const Games05Page = () => {
 						</ul>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 						<img src={img_restart} width="100%" height="100%"></img>
 					</Col>
 				</Row>

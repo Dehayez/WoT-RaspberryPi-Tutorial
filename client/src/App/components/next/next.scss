@@ -32,3 +32,13 @@
 		color: $color-gray;
 	}
 }
+
+
+ // Medium devices (tablets, less than 992px)
+ @media (max-width: 991.98px) { 
+	.next-left, .next-right {
+		box-shadow: none;
+		position: fixed;
+		z-index: 1;
+	}
+}

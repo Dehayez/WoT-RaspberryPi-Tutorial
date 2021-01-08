@@ -1,7 +1,5 @@
 import { default as React } from 'react';
 
-import * as Routes from '../../routes';
-
 import './blog.scss';
 
 const Blog = ({link, img, title}) => {

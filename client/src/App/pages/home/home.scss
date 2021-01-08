@@ -107,3 +107,28 @@ canvas {
 		}
 	}
 }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+   .home__animation {
+	   display: none;
+   }
+
+   .home__data {
+	   width: 100VW;
+	   padding: 2rem;
+   }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+	.home__data-wrapper {
+		flex-direction: column;
+		width: 100%;
+
+		&-button {
+			margin-top: 1rem;
+			width: 100%;
+		}
+	}
+ }

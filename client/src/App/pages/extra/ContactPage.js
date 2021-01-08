@@ -1,6 +1,7 @@
 import { default as React, useEffect, useState } from 'react';
 import { COLORS } from '../../assets/data'
 
+
 import './extra.scss';
 
 const ContactPage = () => {
