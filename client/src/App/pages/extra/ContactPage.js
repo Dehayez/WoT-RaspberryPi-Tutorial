@@ -1,7 +1,5 @@
 import { default as React } from 'react';
 
-import * as Routes from '../../routes';
-
 import './extra.scss';
 
 import {  } from '../../components'

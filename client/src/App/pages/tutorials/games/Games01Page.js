@@ -29,12 +29,12 @@ const Games01Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<h3 className="step-left__title">Games toevoegen aan RaspberryPi</h3>
 						<p className="step-left__list-text">In dit deel van de tutorial wordt er uitgelegd hoe je verschillende games aka ‘ROMS’ download en in de juiste map zet zodat je zo ook kan spelen!</p>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 						<img className="step-right__image" src={arcade} alt="arcade"></img>
 					</Col>
 				</Row>

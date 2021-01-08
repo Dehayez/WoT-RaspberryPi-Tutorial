@@ -31,7 +31,7 @@ const Games02Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">USB-Stick voorbereiden</h3>
 						<ul className="step-left__list">
@@ -44,7 +44,7 @@ const Games02Page = () => {
 						/>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5} className="step-right">
 						<iframe className="gif" src={games02} width="100%" height="100%"></iframe>
 					</Col>
 				</Row>

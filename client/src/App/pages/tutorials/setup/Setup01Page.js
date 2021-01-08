@@ -29,7 +29,7 @@ const Setup01Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">Benodigdheden</h3>
 						<table>
@@ -71,7 +71,7 @@ const Setup01Page = () => {
 						<Warning text="Je hebt alle componenten nodig om deze tutorial te voltooien. Controleer of de SD kaart en USB stick leeg zijn"/>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 						
 					</Col>
 				</Row>

@@ -1,8 +1,6 @@
 import { default as React } from 'react';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
-import * as Routes from '../../routes';
-
 import './notes.scss';
 
 const Problem = () => {

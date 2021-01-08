@@ -6,7 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 import { setup03 } from '../../../assets/gifs'
 
-import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components';
+import { NextLeft, NextRight, TutorialNavigation } from '../../../components';
 
 import { IoIosLaptop } from 'react-icons/io';
 
@@ -31,7 +31,7 @@ const Setup03Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">Download etcher.io</h3>
 						<ul className="step-left__list">
@@ -44,7 +44,7 @@ const Setup03Page = () => {
 						</ul>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 						<iframe className="gif" src={setup03} width="100%" height="100%"></iframe>
 					</Col>
 				</Row>

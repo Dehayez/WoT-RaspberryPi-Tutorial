@@ -34,7 +34,7 @@ const Setup05Page = () => {
 
 			<Container className="container-step">
 				<Row className="step">
-					<Col sm={7} className="step-left">
+					<Col lg={7} className="step-left">
 						<FaRaspberryPi className="icon-rbp"/>
 						<h3 className="step-left__title">RaspberryPi opstarten</h3>
 						<ul className="step-left__list">
@@ -50,7 +50,7 @@ const Setup05Page = () => {
 						</ul>
 					</Col>
 
-					<Col sm={5}  className="step-right">
+					<Col lg={5}  className="step-right">
 						<img src={img_gamepad} width="100%" height="100%"></img>
 					</Col>
 				</Row>
