@@ -47,7 +47,7 @@ const Games04Page = () => {
 					</Col>
 
 					<Col sm={5}  className="step-right">
-						<iframe src={games04} width="100%" height="100%"></iframe>
+						<iframe className="gif" src={games04} width="100%" height="100%"></iframe>
 					</Col>
 				</Row>
 			</Container>
