@@ -37,7 +37,7 @@ const Games04Page = () => {
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
 							<li className="step-left__list-text">Controleer eerst of er nieuwe bestanden in de folder ‘retropie’ zijn toegevoegd</li>
-							<li className="step-left__list-text">Zoek nu op het internet naar de retro games die jij wil spelen. Er bestaan verschillende bibliotheken hiervoor zoals  
+							<li className="step-left__list-text">Zoek nu op het internet naar de retro games die jij wil spelen. Er bestaan verschillende bibliotheken hiervoor. Zoals  
 								<a href="https://www.romsgames.net/roms/"> RomsGames</a>, 
 								<a href="https://www.emulatorgames.net/roms/"> EmulatorGames</a>, 
 								<a href="https://romsmania.cc/roms"> RomsMania</a>
@@ -46,8 +46,8 @@ const Games04Page = () => {
 						</ul>
 					</Col>
 
-					<Col lg={5}  className="step-right">
-						<iframe className="gif" src={games04} width="100%" height="100%"></iframe>
+					<Col sm={5}  className="step-right">
+						<iframe className="gif" src={games04} width="90%" height="100%"></iframe>
 					</Col>
 				</Row>
 			</Container>

@@ -4,6 +4,8 @@ import * as Routes from '../../../routes';
 
 import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../components'
 
+import { setup04 } from '../../../assets/gifs'
+
 import {Container, Row, Col} from 'react-bootstrap';
 
 import { IoIosLaptop } from 'react-icons/io';
@@ -49,8 +51,8 @@ const Setup04Page = () => {
 						<Warning text="Controlleer eerst of de SD kaart volledig leeg is. De gemiddelde download van RetroPi is 1MB"/>
 					</Col>
 
-					<Col lg={5}  className="step-right">
-
+					<Col sm={5}  className="step-right">
+						<iframe className="gif" src={setup04} width="100%" height="100%"></iframe>
 					</Col>
 				</Row>
 			</Container>
