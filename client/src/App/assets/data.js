@@ -34,3 +34,11 @@ export const GAMES_FOR_HOME_PAGE_TITLE = [
 	"Hybrid Heaven",
 	"Superstar Soccer",
 ];
+
+export const COLORS = [
+	'#905DFF',
+	'#905DFF',
+	'#7249C9',
+	'#5244C8',
+	'#902DFF',
+]
