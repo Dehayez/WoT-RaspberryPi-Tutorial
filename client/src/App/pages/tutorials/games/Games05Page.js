@@ -43,7 +43,7 @@ const Games05Page = () => {
 					</Col>
 
 					<Col lg={5}  className="step-right">
-						<img src={img_restart} width="100%" height="100%"></img>
+						<img src={img_restart} width="80%" height="auto"></img>
 					</Col>
 				</Row>
 			</Container>

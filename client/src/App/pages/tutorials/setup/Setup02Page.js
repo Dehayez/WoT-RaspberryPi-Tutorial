@@ -45,7 +45,7 @@ const Setup02Page = () => {
 					</Col>
 
 					<Col lg={5}  className="step-right">
-						<img src={img_retropi} width="220px" height="200px"></img>
+						<img src={img_retropi} width="220px" height="200px"/>
 					</Col>
 				</Row>
 			</Container>

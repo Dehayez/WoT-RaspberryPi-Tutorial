@@ -53,6 +53,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
 		&__image {
 			width: 100%;
 		}
@@ -75,7 +76,12 @@
 
 .gif {
 	border: none;
-	
+}
+
+.blob {
+	position: absolute;
+	z-index: -2;	
+	height: 160%;
 }
 
  // Medium devices (tablets, less than 992px)

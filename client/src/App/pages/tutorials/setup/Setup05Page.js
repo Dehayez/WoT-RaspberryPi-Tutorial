@@ -51,7 +51,7 @@ const Setup05Page = () => {
 					</Col>
 
 					<Col lg={5}  className="step-right">
-						<img src={img_gamepad} width="100%" height="100%"></img>
+						<img src={img_gamepad} width="80%" height="auto"/>
 					</Col>
 				</Row>
 			</Container>
