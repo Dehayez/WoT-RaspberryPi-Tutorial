@@ -35,7 +35,7 @@ const Setup03Page = () => {
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">Download etcher.io</h3>
 						<ul className="step-left__list">
-							<li className="step-left__list-text">Navigeer naar deze <a href="https://www.balena.io/etcher/">link</a> </li>
+							<li className="step-left__list-text">Navigeer naar deze <a href="https://www.balena.io/etcher/" target="_blank">link</a> </li>
 							<li className="step-left__list-text">Download de versie die compatibel is met jouw laptop. Het gedownloadde bestand is een applicatie die ja kan openen op je computer. <br/>
 								<b>IOS: </b> Sleep het gedownloadde bestand in de applicatie folder <br/>
 								<b>Windows: </b>  Open de applicatie vanuit je download folder 

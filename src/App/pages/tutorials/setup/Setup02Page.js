@@ -36,7 +36,7 @@ const Setup02Page = () => {
 						<IoIosLaptop className="icon-laptop"/>
 						<h3 className="step-left__title">Download de RetroPi software</h3>
 						<ul className="step-left__list">
-							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/">link</a> </li>
+							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/" target="_blank">link</a> </li>
 							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
 							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is. Bijvoorbeeld jouw bureaublad/desktop</li>
 						</ul>

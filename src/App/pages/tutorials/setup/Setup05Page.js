@@ -46,7 +46,7 @@ const Setup05Page = () => {
 							<li className="step-left__list-text">Nu zal RetroPi je vragen om je controller te configureren. Volg hierna de stappen die van jou verwacht worden.
 								De configuratie van RetroPi en de bijhorende controller is nu voltooid. In de volgende stappen gaan we <Link to={Routes.GAMES1}>games toevoegen</Link> aan je SD-kaart
 							</li>
-							<p className="step-left__list-text"><b>Optioneel:</b> <a href="https://www.youtube.com/watch?v=uoFQrnwGoLM&t=146s">controller met bluetooth verbinden</a></p>
+							<p className="step-left__list-text"><b>Optioneel:</b> <a href="https://www.youtube.com/watch?v=uoFQrnwGoLM&t=146s" target="_blank">controller met bluetooth verbinden</a></p>
 						</ul>
 					</Col>
 

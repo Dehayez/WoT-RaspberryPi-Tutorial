@@ -38,9 +38,9 @@ const Games04Page = () => {
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
 							<li className="step-left__list-text">Controleer eerst of er nieuwe bestanden in de folder ‘retropie’ zijn toegevoegd</li>
 							<li className="step-left__list-text">Zoek nu op het internet naar de retro games die jij wil spelen. Er bestaan verschillende bibliotheken hiervoor. Zoals  
-								<a href="https://www.romsgames.net/roms/"> RomsGames</a>, 
-								<a href="https://www.emulatorgames.net/roms/"> EmulatorGames</a>, 
-								<a href="https://romsmania.cc/roms"> RomsMania</a>
+								<a href="https://www.romsgames.net/roms/" target="_blank"> RomsGames</a>, 
+								<a href="https://www.emulatorgames.net/roms/" target="_blank"> EmulatorGames</a>, 
+								<a href="https://romsmania.cc/roms" target="_blank"> RomsMania</a>
 							</li>
 							<li className="step-left__list-text">Zet de gedownloadde ROMS in de juiste folder op de USB-stick retropie {'>'} roms {'>'} CONSOLE_FOLDER {'>'} GEDOWNLOADE_ROM</li>
 						</ul>
