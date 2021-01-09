@@ -6,7 +6,7 @@ import arcade from '../../../assets/illustrations/arcade.svg';
 
 import {Container, Row, Col} from 'react-bootstrap';
 
-import { NextRight, NextLeft, TutorialNavigation } from '../../../components'
+import { NextRight, NextLeft, TutorialNavigation } from '../../../components';
 
 const Games01Page = () => {
 	return (
@@ -14,11 +14,11 @@ const Games01Page = () => {
 			<NextLeft route={Routes.SETUP5} />
 			<NextRight route={Routes.GAMES2} />
 			<TutorialNavigation 
-				text1="Intro" 
-				text2="Voorbereiding"
-				text3="Cofigureren"
-				text4="ROMS Downloaden"
-				text5="Playtime"
+				text1="1. Intro" 
+				text2="2. Voorbereiding"
+				text3="3. Cofigureren"
+				text4="4. ROMS Downloaden"
+				text5="5. Playtime"
 
 				link1="/games/1" 
 				link2="/games/2"
@@ -30,7 +30,7 @@ const Games01Page = () => {
 			<Container className="container-step">
 				<Row className="step">
 					<Col lg={7} className="step-left">
-						<h3 className="step-left__title">Games toevoegen aan RaspberryPi</h3>
+						<h3 className="step-left__title">1. Games toevoegen aan RaspberryPi</h3>
 						<p className="step-left__list-text">In dit deel van de tutorial wordt er uitgelegd hoe je verschillende games aka ‘ROMS’ downloadt en in de juiste map zet, zodat je zo ook kan spelen!</p>
 					</Col>
 

@@ -16,11 +16,11 @@ const Games04Page = () => {
 			<NextLeft route={Routes.GAMES3} />
 			<NextRight route={Routes.GAMES5} />
 			<TutorialNavigation 
-				text1="Intro" 
-				text2="Voorbereiding"
-				text3="Cofigureren"
-				text4="ROMS Downloaden"
-				text5="Playtime"
+				text1="1. Intro" 
+				text2="2. Voorbereiding"
+				text3="3. Cofigureren"
+				text4="4. ROMS Downloaden"
+				text5="5. Playtime"
 
 				link1="/games/1" 
 				link2="/games/2"
@@ -33,7 +33,7 @@ const Games04Page = () => {
 				<Row className="step">
 					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
-						<h3 className="step-left__title">ROMS (games) downloaden</h3>
+						<h3 className="step-left__title">4. ROMS (games) downloaden</h3>
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
 							<li className="step-left__list-text">Controleer eerst of er nieuwe bestanden in de folder ‘retropie’ zijn toegevoegd</li>

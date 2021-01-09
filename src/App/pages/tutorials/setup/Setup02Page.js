@@ -17,11 +17,11 @@ const Setup02Page = () => {
 			<NextLeft route={Routes.SETUP1} />
 			<NextRight route={Routes.SETUP3} />
 			<TutorialNavigation 
-				text1="Benodigdheden" 
-				text2="RetroPi Software"
-				text3="Etcher.io"
-				text4="RetroPi SD kaart"
-				text5="Raspberry Pi"
+				text1="1. Benodigdheden" 
+				text2="2. RetroPi Software"
+				text3="3. Etcher.io"
+				text4="4. RetroPi SD kaart"
+				text5="5. Raspberry Pi"
 
 				link1="/setup/1" 
 				link2="/setup/2"
@@ -34,9 +34,9 @@ const Setup02Page = () => {
 				<Row className="step">
 					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
-						<h3 className="step-left__title">Download de RetroPi software</h3>
+						<h3 className="step-left__title">2. Download de RetroPi software</h3>
 						<ul className="step-left__list">
-							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/" target="_blank">link</a> </li>
+							<li className="step-left__list-text">Navigeer naar deze <a href="https://retropie.org.uk/download/" target="_blank">website</a>, hier ga je 3 rode download buttons zien staan </li>
 							<li className="step-left__list-text">Download de versie van RetroPi die compatibel is met de versie van jouw RaspberryPi 3 of 4 </li>
 							<li className="step-left__list-text">Sla dit bestand op waar het makkelijk te bereiken is. Bijvoorbeeld jouw bureaublad/desktop</li>
 						</ul>

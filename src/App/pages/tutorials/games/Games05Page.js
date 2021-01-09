@@ -15,11 +15,11 @@ const Games05Page = () => {
 		<div className="games05">
 			<NextLeft route={Routes.GAMES4} />
 			<TutorialNavigation 
-				text1="Intro" 
-				text2="Voorbereiding"
-				text3="Cofigureren"
-				text4="ROMS Downloaden"
-				text5="Playtime"
+				text1="1. Intro" 
+				text2="2. Voorbereiding"
+				text3="3. Cofigureren"
+				text4="4. ROMS Downloaden"
+				text5="5. Playtime"
 
 				link1="/games/1" 
 				link2="/games/2"
@@ -32,7 +32,7 @@ const Games05Page = () => {
 				<Row className="step">
 					<Col lg={7} className="step-left">
 						<FaRaspberryPi className="icon-rbp"/>
-						<h3 className="step-left__title">Almost playtime, hang on!</h3>
+						<h3 className="step-left__title">5. Almost playtime, hang on!</h3>
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Start de RaspberryPi op</li>
 							<li className="step-left__list-text">Steek de USB-stick in de poort van de RaspberryPi</li>

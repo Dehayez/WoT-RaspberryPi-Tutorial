@@ -14,11 +14,11 @@ const Games03Page = () => {
 			<NextLeft route={Routes.GAMES2} />
 			<NextRight route={Routes.GAMES4} />
 			<TutorialNavigation 
-				text1="Intro" 
-				text2="Voorbereiding"
-				text3="Cofigureren"
-				text4="ROMS Downloaden"
-				text5="Playtime"
+				text1="1. Intro" 
+				text2="2. Voorbereiding"
+				text3="3. Cofigureren"
+				text4="4. ROMS Downloaden"
+				text5="5. Playtime"
 
 				link1="/games/1" 
 				link2="/games/2"
@@ -31,7 +31,7 @@ const Games03Page = () => {
 				<Row className="step">
 					<Col lg={7} className="step-left">
 						<FaRaspberryPi className="icon-rbp"/>
-						<h3 className="step-left__title">USB-Stick configureren</h3>
+						<h3 className="step-left__title">3. USB-Stick configureren</h3>
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je RaspberryPi</li>
 							<li className="step-left__list-text">Start de RaspberryPi op door de stroomtoevoer in te steken</li>

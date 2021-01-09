@@ -16,11 +16,11 @@ const Setup04Page = () => {
 			<NextLeft route={Routes.SETUP3} />
 			<NextRight route={Routes.SETUP5} />
 			<TutorialNavigation 
-				text1="Benodigdheden" 
-				text2="RetroPi Software"
-				text3="Etcher.io"
-				text4="RetroPi SD kaart"
-				text5="Raspberry Pi"
+				text1="1. Benodigdheden" 
+				text2="2. RetroPi Software"
+				text3="3. Etcher.io"
+				text4="4. RetroPi SD kaart"
+				text5="5. Raspberry Pi"
 
 				link1="/setup/1" 
 				link2="/setup/2"
@@ -33,7 +33,7 @@ const Setup04Page = () => {
 				<Row className="step">
 					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
-						<h3 className="step-left__title">RetroPi op SD kaart overbrengen</h3>
+						<h3 className="step-left__title">4. RetroPi op SD kaart overbrengen</h3>
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Zorg dat het programma BalenaEtcher geopend is.</li>
 							<li className="step-left__list-text">Steek een lege SD kaart in je computer.</li>

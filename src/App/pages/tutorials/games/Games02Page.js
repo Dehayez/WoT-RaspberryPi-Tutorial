@@ -6,7 +6,7 @@ import { NextLeft, NextRight, TutorialNavigation, Warning } from '../../../compo
 
 import { games02 } from '../../../assets/gifs'
 
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import { IoIosLaptop } from 'react-icons/io';
 
@@ -16,11 +16,11 @@ const Games02Page = () => {
 			<NextLeft route={Routes.GAMES1} />
 			<NextRight route={Routes.GAMES3} />
 			<TutorialNavigation 
-				text1="Intro" 
-				text2="Voorbereiding"
-				text3="Cofigureren"
-				text4="ROMS Downloaden"
-				text5="Playtime"
+				text1="1. Intro" 
+				text2="2. Voorbereiding"
+				text3="3. Cofigureren"
+				text4="4. ROMS Downloaden"
+				text5="5. Playtime"
 
 				link1="/games/1" 
 				link2="/games/2"
@@ -33,7 +33,7 @@ const Games02Page = () => {
 				<Row className="step">
 					<Col lg={7} className="step-left">
 						<IoIosLaptop className="icon-laptop"/>
-						<h3 className="step-left__title">USB-Stick voorbereiden</h3>
+						<h3 className="step-left__title">2. USB-Stick voorbereiden</h3>
 						<ul className="step-left__list">
 							<li className="step-left__list-text">Steek de USB-stick in de poort van je computer</li>
 							<li className="step-left__list-text">Zorg dat de USB-stick volledig leeg is</li>
