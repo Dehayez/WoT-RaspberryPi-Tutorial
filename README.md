@@ -16,7 +16,7 @@ De benodigdheden zijn vrij toegankelijk voor onze doelgroep. Dit houdt in:
 
 Enkel de Raspberry Pi moeten aangekocht worden. We prijzen dit aan als toffe technologie waar je zeer creatief mee kan omspringen. Zo willen we jongeren bijleren over de mogelijkheden die er zijn met technologie.
 
-Met de website willen x dingen weergeven:
+Met de website willen 3 dingen weergeven:
 - Documenteren hoe je retro-pi installeert op je RPI
 - Tonen wat er nog mogelijk is met een RPI
 - Demo met het eindproduct na de installatie (video)

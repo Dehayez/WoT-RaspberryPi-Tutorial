@@ -6,7 +6,6 @@
 	animation: fade-in 1s 0.2s both;
 	
 	&__title {
-		width: 100%;
 		text-align: center;
 		h1 {
 			font-size: 64px;
@@ -17,12 +16,45 @@
 			margin: auto;
 		}
 	}
+	&__raspberrypi {
+		margin: 80px 0;
+		h2 {
+			font-size: 42px;
+			color: $color-gray;
+			margin-top: 80px;
+		}
+		p {
+			width: 100%;
+		}
+		img {
+			padding: 40px;
+		}
+		a { 
+			background-color: #905DFF;
+			color: $color-white;
+		    text-decoration: none;
+		    height: 80px;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    border-radius: 10px;
+		    text-align: center;
+			transition: 0.3s;
+			width: 100%;
+			font-size: 20px;
+			margin: 20px 0;
+		}
+	}
+	h3 {
+		color: $color-gray;
+		font-size: 28px;
+	}
 	&__blogs {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: space-between;
-		margin-top: 60px;
+		margin-top: 20px;
 	}
 }
 
