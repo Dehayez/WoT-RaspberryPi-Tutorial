@@ -5,10 +5,12 @@
 	animation: fade-in 1s 0.2s both;
 	margin: 0 2rem 2rem 2rem;
 	padding-top: 8rem;
+
 	&__title {
 		text-align: center;
+
 		h1 {
-			font-size: 64px;
+			font-size: 3rem;
 			color: $color-gray;
 		}
 		p {
@@ -77,23 +79,26 @@
   }
  
 .contact {
-	padding: 160px;
 	-webkit-animation: fade-in 1s 0.2s both;
 	animation: fade-in 1s 0.2s both;
+
+	margin: 0 2rem 2rem 2rem;
+	padding-top: 8rem;
 	
 	&__title {
 		width: 100%;
 		text-align: center;
+
 		h1 {
-			font-size: 64px;
+			font-size: 3rem;
 			color: $color-gray;
 		}
 		p {
-			width: 70%;
+			max-width: 1000px;
 			margin: auto;
 		}
 		h2 {
-			font-size: 32px;
+			font-size: 1.2rem;
 			color: $color-purple;
 			margin-top: 40px;
 		}

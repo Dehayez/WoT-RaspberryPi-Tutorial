@@ -120,7 +120,21 @@ canvas {
    .home__data {
 	   width: 100VW;
 	   padding: 2rem;
+	   margin-top: 10rem;
+	   text-align: center;
+
+	   &-title {
+		   font-size: 2.2rem;
+	   }
    }
+
+   .home__data-wrapper {
+	align-items: center;
+
+		&-button {
+			margin: 0;
+		}
+	}
 }
 
 // Small devices (landscape phones, less than 768px)
