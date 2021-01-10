@@ -47,6 +47,7 @@ canvas {
 				background-color: $color-purple;
 				border: 2px solid $color-purple;
 				text-decoration: none;
+				font-size: 16px;
 
 				height: 60px;
 				display: flex;
@@ -55,6 +56,8 @@ canvas {
 				border-radius: 10px;
 				text-align: center;
 				margin-right: 2rem;
+				max-width: 270px;
+				max-height: 270px;
 
 				transition: 0.3s;
 

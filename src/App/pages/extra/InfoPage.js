@@ -11,7 +11,7 @@ const InfoPage = () => {
 		<div className="info">
 			<div className="info__title">
 				<h1>Info</h1>
-				<p>
+				<p className="home__data-text">
 					We willen jullie ook tonen wat er nog mogelijk is met jullie RaspberryPi.
 					De Mogelijkheden zijn eindeloos en je kan er zeer creatief mee omgaan.
 					Met deze voorbeelden kan je ontdekken wat je allemaal kan ontwikkelen.
@@ -19,15 +19,15 @@ const InfoPage = () => {
 			</div>
 			<div className="info__raspberrypi">
 				<h2>RaspberryPi</h2>
-				<p>
+				<p className="home__data-text">
 					De <strong>Raspberry Pi (RPI)</strong> is een kleine computer waarvan de onderdelen allemaal op 1 printplaat zijn ondergebracht.
 					Het wordt ook wel een micro PC genoemd. Je kunt er allerlei leuke dingen mee doen. 
 					Je kunt het als een gewone PC gebruiken, maar je kunt er ook thuis lichten mee aansturen, je verwarming aan of uit zetten of een mediaspeler van maken. 
 					Deze computer is niet alleen handig qua formaat, maar is ook zeer betaalbaar. 
 					Het energieverbruik van de RPi is daarnaast erg laag, veel lager dan van een gewone PC.
 				</p>
-				<img src={ Images.img_rbp } className="step-right__image-padje" width="100%" height="auto"/>
-				<p>
+				<img src={ Images.img_rbp } className="step-right__image-padje" width="400px" height="auto"/>
+				<p className="home__data-text">
 					<strong>Wat zit er op een Raspberry Pi computer?</strong><br></br>
 					- Micro USB poort voor stroomtoevoer <br></br>
 					- USB host poorten 4x (bijvoorbeeld voor toetsenbord, muis en wifi-adapter)<br></br>
@@ -43,7 +43,7 @@ const InfoPage = () => {
 				<p>
 					Als je nog steeds niet overtuigd bent van hoe cool een Raspberry Pi is, dan kan je hieronder nog enkele voorbeelden zien van wat je ermee kan doen!
 				</p>
-				<a href="https://www.kiwi-electronics.nl/raspberry-pi/board-and-kits/raspberry-pi-4-model-b-8gb" target="_blank">Raspberry Pi bestellen</a>
+				<a href="https://www.kiwi-electronics.nl/raspberry-pi/board-and-kits/raspberry-pi-4-model-b-8gb" className="home__data-wrapper-button" target="_blank">Raspberry Pi bestellen</a>
 			</div>
 
 			<h3>Leuke toepassingen met een Raspberry Pi</h3>
