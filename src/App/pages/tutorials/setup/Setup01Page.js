@@ -72,7 +72,6 @@ const Setup01Page = () => {
 							</tr>
 							</tbody>
 						</table> 
-						<Warning text="Je hebt alle componenten nodig om deze tutorial te voltooien. Controleer of de SD kaart en USB stick leeg zijn"/>
 					</Col>
 
 					<Col lg={5}  className="step-right">

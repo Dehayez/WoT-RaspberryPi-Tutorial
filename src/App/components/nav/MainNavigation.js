@@ -38,7 +38,7 @@ const MainNavigation = () => {
 				</div>
 				<div className="navigation-main__nav-wrapper">
 					<Link to={Routes.HOME} onClick={showMain}><h1>HOME</h1></Link>
-					<Link to={Routes.SETUP1} onClick={showMain}><h1>1. INSTALATIE RETROPIE</h1></Link>
+					<Link to={Routes.SETUP1} onClick={showMain}><h1>1. INSTALLATIE RETROPIE</h1></Link>
 					<Link to={Routes.GAMES1} onClick={showMain}><h1>2. GAMES TOEVOEGEN</h1></Link>
 					<Link to={Routes.INFO} onClick={showMain}><h1>INFO</h1></Link>
 					<Link to={Routes.CONTACT} onClick={showMain}><h1>CONTACT</h1></Link>
